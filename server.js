@@ -1,6 +1,6 @@
 process.env.NODE_ENV = process.env.NODE_ENV || 'development';
-var mongoose = require('./config/mongoose');
-var express = require('./config/express');
+var mongoose = require('./Config/mongoose');
+var express = require('./Config/express');
 const PORT = process.env.PORT || 5000
 var db = mongoose();
 var app = express();

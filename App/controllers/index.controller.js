@@ -3,5 +3,6 @@
 
 exports.render = function(req, res) {
     // res.render('index', {title: 'WEST-COAST', message: 'Welcome to California', LoginSS: false});
-    res.send('Nodejs');
+    // res.send('Nodejs');
+    res.json({result: "ok", data:[1,2,3,4,5]})
 }
